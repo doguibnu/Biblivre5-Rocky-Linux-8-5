@@ -94,7 +94,7 @@ wget https://archive.apache.org/dist/tomcat/tomcat-7/v7.0.42/bin/apache-tomcat-7
 Extrair o arquivo do tomcat baixado com o comando:
 
 ```
-tar -xf tar -xf apache-tomcat-7.0.42.tar.gz 
+tar -xf apache-tomcat-7.0.42.tar.gz 
 ```
 
 Declarar uma variável e Criar um link simbólico como ponto de última instalação:
