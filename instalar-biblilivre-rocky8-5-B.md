@@ -1,4 +1,4 @@
-# <u>Instalar Biblivre5 no Rocky Linux 8.5</u>
+# <u>Instalar Biblivre5 no Rocky Linux 8.5 e 8.6</u>
 
 A instalação será baseada no GitHub de [Cleydyr Bezerra de Albuquerque]([cleydyr (Cleydyr Bezerra de Albuquerque) · GitHub](https://github.com/cleydyr)) que fez um script para CentOS 7 para a instalação do [Biblivre5]([Script para instalação automatizada do Biblivre 5 no CentOS 7 · GitHub](https://gist.github.com/cleydyr/95db7654ca2d915ddf3d8fe2e2c04fbe)) com algumas pequenas modificações para funcionamento correto no Rocky Linux 8.5 
 
@@ -213,7 +213,7 @@ firewall-cmd --reload
 Permita o Tomcat rodar mais permissivamente, sem restrições da política SELinux com o comando:
 
 ```
-semanage permissive -a tomcat_t
+sudo sed -i 's/^SELINUX=.*/SELINUX=permissive/g' /etc/selinux/config
 ```
 
 Reestart o serviço do Tomcat e verifique o status do serviço do Tomcat
