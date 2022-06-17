@@ -231,7 +231,7 @@ Pode ser necessário dar um reboot no servidor:
 reboot
 ```
 
-Após dar o reboor no servidor, tente acessar o **Biblivre5**:  Abra seu navegador de internet e faça:
+Após dar o reboot no servidor, tente acessar o **Biblivre5**:  Abra seu navegador de internet e faça:
 
 ```
 http://IP_seu_server_Biblivre:8080/Biblivre4
