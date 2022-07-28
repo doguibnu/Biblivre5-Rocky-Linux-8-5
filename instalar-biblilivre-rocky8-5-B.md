@@ -1,6 +1,6 @@
 # <u>Instalar Biblivre5 no Rocky Linux 8.5 e 8.6</u>
 
-A instalação será baseada no GitHub de [Cleydyr Bezerra de Albuquerque](https://github.com/cleydyr) que fez um script para CentOS 7 para a instalação do [Biblivre5](https://gist.github.com/cleydyr/95db7654ca2d915ddf3d8fe2e2c04fbe) com algumas pequenas modificações para funcionamento correto no Rocky Linux 8.5 
+A instalação será baseada no GitHub de [Cleydyr Bezerra de Albuquerque](https://github.com/cleydyr) que fez um script para CentOS 7 para a instalação do [Biblivre5](https://gist.github.com/cleydyr/95db7654ca2d915ddf3d8fe2e2c04fbe) com algumas pequenas modificações para funcionamento correto no Rocky Linux 8.5.
 
 OBS: todos os comandos no Terminal, sendo executados como usuário root (#)
 
